@@ -1,0 +1,54 @@
+/*Selector{
+	Property: value;}*/
+	*{
+		text-align: right;
+	}
+	body {
+	background-image: url(backgroundimage.jpeg);
+	background-size: cover;
+	opacity: 0.9;
+}
+	h1 {
+	color: white;
+	text-align: center;
+	border: 5px solid white;
+	cursor: pointer;
+}
+nav {
+	color: white;
+}
+
+p {
+	color: white;
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "times new roman";
+}
+li {list-style: none;
+	display: inline-block;
+
+}
+
+.listtext {
+	color: white;
+	text-align: right;
+}
+
+img { 
+	width: 400px;
+	height: 200px; 
+	transition: all 0.8s;
+	float: left;
+
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+
+
+
+
+
